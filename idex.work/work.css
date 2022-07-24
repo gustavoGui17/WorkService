@@ -29,10 +29,57 @@
   }
   
   main {
-    background: url("bg.jpg") no-repeat center center;
+    background: url("imgWork/pexels-fauxels-3184292.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 60vh;
   }
+
+  .conteudo-secudario {
+    background: url(imgWork/pexels-diva-plavalaguna-6146697.jpg) no-repeat center;
+    background-size: 45%;
+    height: 70vh;
+  }
+
+  /*.conteudo-secuntadario-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+    font-size: x-large;
+  }
+
+/*.conteudo-secundario-paragrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 50vh;
+}*/
+
+  .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 13vh;
+  }
+
+  .conteudo-principal-digitado {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .conteudo-principal-titulo {
+    font-family: Arial;
+    font-size: xx-large;
+  }
+
+  .conteudo-principal-paragrafo {
+    font-family: Arial;
+    font-size: medium;
+  }
+
   
   .nav-list {
     list-style: none;
