@@ -37,23 +37,28 @@
   .conteudo-secudario {
     background: url(imgWork/pexels-diva-plavalaguna-6146697.jpg) no-repeat center;
     background-size: 45%;
-    height: 70vh;
+    background-position: 15vh;
+    height: 60vh;
+    padding: 5vh;
   }
 
-  /*.conteudo-secuntadario-titulo {
+  .conteudo-secuntadario-titulo {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-family: Arial;
     font-size: x-large;
+    padding: 5vh;
+    padding-left: 110vh;
   }
 
-/*.conteudo-secundario-paragrafo {
+.conteudo-secundario-paragrafo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-right: 50vh;
-}*/
+  align-items: flex-end;
+  padding-right: 25vh;
+  padding-bottom: 40vh;
+  font-size: 150%;
+}
 
   .conteudo-principal{
     display: flex;
@@ -78,6 +83,113 @@
   .conteudo-principal-paragrafo {
     font-family: Arial;
     font-size: medium;
+  }
+
+
+  .conteudo-clientes-titulo {
+    display: flex;
+    align-items:center;
+    flex-direction: column;  
+    font-size: 150%;
+    color: rgb(43, 93, 228); 
+    padding-bottom: 15vh;
+  }
+
+  .carrocel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding-right: 13%;
+  }
+
+  .logo1 {
+    width: 15%;
+    padding-left: 15%;
+    position: relative;
+    top: 30px;
+  }
+
+  .logo2 {
+    width: 13%;
+    padding-left: 15%;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .logo3 {
+    width: 13%;
+    position: relative;
+    top: 30px;
+    padding-left: 15%;
+  }
+
+  .logo4 {
+    width: 11%;
+    padding-left: 15%;
+    position: relative;
+    top: 30px;
+    padding-right: 15px;
+  }
+
+  .logo5 {
+    width: 13%;
+    position: relative;
+    bottom: 30px;
+    padding-left: 15%;
+  }
+
+  .logo6 {
+    width: 12%;
+    position: relative;
+    bottom: 30px;
+    padding-left: 15%;
+  }
+
+  .conteudo-contato {
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .conteudo-contato-titulo {
+    font-size: x-large;
+    text-transform: uppercase;
+    padding-bottom: 4%;
+    color:rgb(43, 93, 228);
+  }
+
+  .conteudo-endereco-titulo {
+    font-size: 125%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    color: rgb(34, 211, 78);
+  }
+
+  .conteudo-informacao-rua {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    padding-bottom: 3%;
+  }
+
+  .conteudo-telefone-titulo {
+    font-size: 125%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    color: rgb(34, 211, 78);
+  }
+
+  .conteudo-telefone {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
   }
 
   
