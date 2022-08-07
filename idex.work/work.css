@@ -4,7 +4,7 @@
   }
   
   a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     transition: 0.3s;
   }
@@ -23,15 +23,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: green;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     height: 8vh;
   }
   
   main {
     background: url("imgWork/pexels-fauxels-3184292.jpg") no-repeat center center;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
   }
 
   .conteudo-secudario {
@@ -65,7 +69,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    padding: 13vh;
+    padding: 14vh;
+    position: relative;
+    top: 15%;
+    color: #fff;
   }
 
   .conteudo-principal-digitado {
@@ -77,12 +84,12 @@
 
   .conteudo-principal-titulo {
     font-family: Arial;
-    font-size: xx-large;
+    font-size: 300%;
   }
 
   .conteudo-principal-paragrafo {
     font-family: Arial;
-    font-size: medium;
+    font-size: 130%;
   }
 
 
@@ -107,20 +114,20 @@
     width: 15%;
     padding-left: 15%;
     position: relative;
-    top: 30px;
+    top: 15px;
   }
 
   .logo2 {
     width: 13%;
     padding-left: 15%;
     position: relative;
-    bottom: 30px;
+    bottom: 70px;
   }
 
   .logo3 {
     width: 13%;
     position: relative;
-    top: 30px;
+    top: 15px;
     padding-left: 15%;
   }
 
@@ -128,21 +135,21 @@
     width: 11%;
     padding-left: 15%;
     position: relative;
-    top: 30px;
+    top: 12px;
     padding-right: 15px;
   }
 
   .logo5 {
     width: 13%;
     position: relative;
-    bottom: 30px;
+    bottom: 70px;
     padding-left: 15%;
   }
 
   .logo6 {
     width: 12%;
     position: relative;
-    bottom: 30px;
+    bottom: 70px;
     padding-left: 15%;
   }
 
@@ -190,6 +197,50 @@
     display: flex;
     flex-direction: column;
     padding: 2px;
+  }
+
+  .whats {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  }
+
+
+  .titulo-whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 300%;
+  }
+
+  .paragrafo-whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+  }
+
+  .img-whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    top: 30px;
+  }
+
+  .whast-numero {
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    color: black;
+    position: relative;
+    left: 35%;
+    bottom: 23px;
   }
 
   
