@@ -3,8 +3,16 @@
   padding: 0;
 }
 
+html {
+  font-size: 65.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
 a {
-  color: black;
+  color: #eee;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -14,7 +22,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
@@ -28,60 +36,65 @@ nav {
   width: 100%;
   z-index: 3;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to right, #38f9d7 0%, #43e97b 100%);
+  background-image: linear-gradient(to right, #4B6A86 0%, #C8CAD2 100%);
   height: 8vh;
+  /* overlay */
+  background-color: rgb(0, 0, 0, 0.1);
+  background-blend-mode: color;
 }
 
 main {
-  background: url("imgWork/pexels-fauxels-3184292.jpg") no-repeat center center;
-  background-size: cover;
   height: 100vh;
+  background: url("imgWork/predio.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;  
+  background-color: rgb(0, 0, 0, 0.2);
+  background-blend-mode: color;
 }
 
 .conteudo-principal{
   display: flex;
+  width: 100%;
+  height: auto;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  padding: 14vh;
-  position: relative;
-  top: 8%;
-  color: rgb(20, 20, 20);
-}
-
-.conteudo-principal-digitado {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  align-items: center;
+  color: #eee;
 }
 
 .conteudo-principal-titulo {
   font-family: Arial;
-  font-size: 300%;
+  font-size: 5.4rem;
+  width: 80%;
+  max-width: 980px;
+  position: absolute;
+  left: 10%;
+  top: 25vh;
 }
 
 .conteudo-principal-paragrafo {
   font-family: Arial;
-  position: relative;
-  line-height: 30px;
-  top: 60px;
-  font-size: 125%;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 50vh;
+  line-height: 3.0rem;
+  font-size: 2.3rem;
 }
 
-.conteudo-secudario {
+#conteudo-secudario {
   background: url(imgWork/pexels-diva-plavalaguna-6146697.jpg) no-repeat center;
   background-size: 50%;
   background-position: 4vh;
-  height: 95vh;
+  height: 85vh;
   padding: 5vh;
 }
 
 .conteudo-secuntadario-titulo {
   display: flex;
   align-items: center;
+  font-size: 3rem;
   flex-direction: column;
-  padding-left: 40vw;
 }
 
 .conteudo-titulo-paragrafo {
@@ -93,26 +106,24 @@ color: blue
 }
 
 .conteudo01{
-  font-size: 130%;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 15px;
-  padding-left: 38vw;
+  padding-left: 50vw;
   }
 
 .paragrafo-conteudo01 {
-  font-size: 130%;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 15px;
-  padding-left: 37vw;
+  padding-left: 50vw;
 }
 
 .conteudo-todo02{
   position:relative;
-  top: 50px;
+  top: 40px;
 }
 
 .conteudo-titulo-paragrafo02{
@@ -123,7 +134,7 @@ color: blue
   }
 
 .couteudo02{
-font-size: 130%;
+font-size: 1.8rem;
 display: flex;
 flex-direction: column;
 padding-top: 15px;
@@ -131,7 +142,7 @@ padding-left: 50vw;
 }
 
 .paragrafo-conteudo02{
-font-size: 130%;
+font-size: 1.8rem;
 display: flex;
 flex-direction: column;
 padding-top: 15px;
@@ -141,7 +152,7 @@ padding-left: 50vw;
 
 .conteudo-todo03{
   position:relative;
-  top: 100px;
+  top: 80px;
 }
 
 .conteudo-titulo-paragrafo03{
@@ -152,7 +163,7 @@ padding-left: 50vw;
   }
 
 .conteudo03{
-  font-size: 130%;
+  font-size: 1.8rem;
   display: flex;
   flex-direction: column;
   padding-top: 15px;
@@ -160,7 +171,7 @@ padding-left: 50vw;
 }
 
 .paragrafo-conteudo03{
-font-size: 130%;
+font-size: 1.8rem;
 display: flex;
 flex-direction: column;
 padding-top: 15px;
@@ -171,10 +182,10 @@ padding-left: 50vw;
   display: flex;
   align-items:center;
   flex-direction: column;  
-  font-size: 150%;
+  font-size: 3rem;
   color: black; 
   padding-bottom: 15vh;
-  padding-top: 3vh;
+  padding-top: 15vh;
 }
 
 .carrocel {
@@ -235,8 +246,9 @@ padding-left: 50vw;
 }
 
 .Logo-work {
-  position: relative;
-  right: 15%;
+  display: flex;
+  align-items: center;
+
 }
 
 .logo-principal {
@@ -244,7 +256,7 @@ padding-left: 50vw;
   top: 30%;
 }
 
-.conteudo-contato {
+#conteudo-contato {
   padding-top: 15vh;
   display: flex;
   flex-direction: column;
@@ -253,14 +265,14 @@ padding-left: 50vw;
 }
 
 .conteudo-contato-titulo {
-  font-size: x-large;
+  font-size: 2.0rem;
   text-transform: uppercase;
   padding-bottom: 4%;
   color:black;
 }
 
 .conteudo-endereco-titulo {
-  font-size: 125%;
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,28 +282,28 @@ padding-left: 50vw;
 }
 
 .conteudo-telefone-titulo {
-  font-size: 125%;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   color: black;
   position: relative;
-  right: 305px;
+  right: 310px;
 }
 
 .conteudo-proposito {
-  font-size: 120%;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   position: relative;
-  right: 1px;
+  left: 25px;
 }
 
 .conteudo-valores {
-  font-size: 120%;
+  font-size: 2rem;
   display: flex;
   align-items: center;
   position: relative;
-  right: 143px;
+  right: 130px;
 }
 
 .whats {
@@ -308,14 +320,14 @@ padding-left: 50vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 300%;
+  font-size: 3rem;
 }
 
 .paragrafo-whats {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 200%;
+  font-size: 3rem;
 }
 
 .img-whats {
@@ -330,7 +342,7 @@ padding-left: 50vw;
 .whast-numero {
   display: flex;
   align-items: center;
-  font-size: 200%;
+  font-size: 4rem;
   color: black;
   position: relative;
   left: 35%;
@@ -360,7 +372,7 @@ padding-left: 50vw;
   margin: 8px;
   transition: 0.3s;
 }
-
+ 
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
@@ -412,4 +424,191 @@ padding-left: 50vw;
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+@media (max-width: 1440px){
+  #conteudo-secudario{
+    background-size: 53%;
+    background-position-x: left;
+    position: relative;
+  }
+}
+
+@media (max-width: 1024px){
+  html{
+    font-size: 50%;
+  }
+
+  .conteudo-principal-titulo{
+    width: 80%;  
+  }
+
+  .conteudo-principal-paragrafo{
+    width: 80%;
+  }
+
+  #conteudo-secudario{
+    background-size: 70%;
+    background-position-x: center;
+    position: relative;
+    bottom: 18vh;
+}
+
+.conteudo-secuntadario-titulo{
+    position: relative;
+    top: 80vh;
+    font-size: 3vh;
+}
+
+.conteudo-titulo-paragrafo{
+    position: relative;
+    top: 80vh;
+    right: 60vh;
+    font-size: 2.3vh;  
+}
+
+.conteudo01{
+    position: relative;
+    top: 80vh;
+    right: 60vh;
+    font-size: 2.1vh; 
+}
+
+.paragrafo-conteudo01{
+    position: relative;
+    top: 85vh;
+    right: 60vh;
+    font-size: 2.1vh;    
+}
+
+.conteudo-titulo-paragrafo02{
+    position: relative;
+    top: 45vh;
+    left: 15px;
+    font-size: 2.3vh;   
+}
+
+.couteudo02{
+    position: relative;
+    top: 45vh;
+    left: 15px;
+    font-size: 2.1vh; 
+}
+
+.paragrafo-conteudo02{
+    position: relative;
+    top: 51vh;
+    left: 15px;
+    font-size: 2.1vh; 
+}
+
+.conteudo-todo03{
+top: 35vh;
+right: 10vh;
+}
+
+.conteudo-titulo-paragrafo03{
+    position: relative;
+    top: 33vh;
+    right: 20vh;
+    font-size: 2.3vh;    
+}  
+
+.conteudo03{
+    position: relative;
+    top: 33vh;
+    right: 20vh;
+    font-size: 2.1vh; 
+}
+
+.paragrafo-conteudo03{
+    position: relative;
+    top: 33vh;
+    right: 20vh;
+    font-size: 2.1vh; 
+}
+
+#conteudo-clientes{
+  padding-top: 60vh;
+}
+
+.conteudo-clientes-titulo{
+  font-size: 3vh;
+}
+
+.logo1{
+  width: 15vh;
+}
+
+.logo2{
+  width: 15vh;
+  padding-top: 50px;
+}
+
+.logo3{
+  width: 15vh;
+  padding-bottom: 15vh;
+}
+
+.logo4{
+  width: 15vh;
+}
+
+.logo5{
+padding-top: 50px;
+width: 15vh;
+}
+
+.logo6{
+  padding-bottom: 25px;
+  width: 15vh;
+}
+
+.paragrafo-whats{
+  font-size: 3.2vh;
+}
+
+.whast-numero{
+  font-size: 4vh;
+  width: 50%;
+}
+
+.Logo-work{
+  position: relative;
+  left: 1vh;
+}
+
+.conteudo-telefone-titulo{
+  left: 1vh;
+  top: 1vh;
+}
+
+.conteudo-proposito{
+  left: 1vh;
+  top: 1vh;
+  
+}
+
+.conteudo-valores{
+  left: 1vh;
+  top: 1vh;
+}
+
+.conteudo-endereco-titulo{
+  font-size: 2vh;
+  left: 1vh;
+}
+
+.conteudo-telefone-titulo{
+  font-size: 2vh;
+}
+
+.conteudo-proposito{
+  font-size: 2vh;
+}
+
+.conteudo-valores{
+  font-size: 2vh;
+}
+
 }

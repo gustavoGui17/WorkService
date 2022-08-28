@@ -1,7 +1,0 @@
-    <footer class="conteudo-contato">
-        <h4 class="conteudo-contato-titulo">Contato</h4>
-        <h5 class="conteudo-endereco-titulo">Endereço:</h5>
-        <p class="conteudo-informacao-rua">Rua General Jardim, 633 <br> São Paulo, SP 01223-011</p>
-        <h6 class="conteudo-telefone-titulo">Telefone:</h6>
-        <p class="conteudo-telefone">(11)99999-9999</p>
-    </footer>

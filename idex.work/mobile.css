@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.conteudo-principal-titulo{
+    position: relative;
+    top: 15vh;
+    font-size: 4vh;
+}
+
+.conteudo-principal-paragrafo{
+    position: relative;
+    top: 20vh;
+}
+
+#conteudo-secudario{
+    background-size: 60%;
+    background-position-x: center;
+    position: relative;
+    bottom: 28vh;
+}
+
+.conteudo-secuntadario-titulo{
+    position: relative;
+    top: 70vh;
+}
+
+.conteudo-titulo-paragrafo{
+    position: relative;
+    top: 70vh;
+    right: 45vh;
+    font-size: 1.7vh;
+}
+
+.conteudo01{
+    position: relative;
+    top: 70vh;
+    right: 45vh;
+    font-size: 2vh; 
+}
+
+.paragrafo-conteudo01{
+    position: relative;
+    top: 75vh;
+    right: 45vh;
+    font-size: 2vh;    
+}
+
+.conteudo-titulo-paragrafo02{
+    position: relative;
+    top: 35vh;
+    font-size: 2vh;   
+}
+
+.couteudo02{
+    position: relative;
+    top: 35vh;
+    font-size: 2vh; 
+}
+
+.paragrafo-conteudo02{
+    position: relative;
+    top: 35vh;
+    font-size: 2vh;  
+}
+
+.conteudo-todo03{
+top: 20vh;
+}
+
+.conteudo-titulo-paragrafo03{
+    position: relative;
+    top: 23vh;
+    right: 10vh;
+    font-size: 1.8vh;   
+}  
+
+.conteudo03{
+    position: relative;
+    top: 23vh;
+    right: 10vh;
+    font-size: 2vh; 
+}
+
+.paragrafo-conteudo03{
+    position: relative;
+    top: 25vh;
+    right: 10vh;
+    font-size: 2vh; 
+}
+
+#conteudo-clientes{
+    padding-top: 38vh;
+}
+
+.logo1{
+    width: 15vh;
+}
+
+.logo2{
+    width: 15vh;
+    padding-top: 50px;
+}
+
+.logo3{
+    width: 15vh;
+    padding-bottom: 22vh;
+}
+
+.logo4{
+    width: 15vh;
+}
+
+.logo5{
+padding-top: 50px;
+width: 15vh;
+}
+
+.logo6{
+    padding-bottom: 25px;
+    width: 15vh;
+}
+
+.paragrafo-whats{
+    font-size: 3.2vh;
+}
+
+.whast-numero{
+    margin: 0;
+}
+
+.img-whats{
+    width: 10%;
+    padding-right: 50vh;
+    margin: 0;
+}
+
+.Logo-work{
+    position: relative;
+    left: 1vh;
+}
+
+.conteudo-endereco-titulo{
+    left: 1vh;
+}
+
+.conteudo-telefone-titulo{
+    left: 1vh;
+    top: 1vh;
+}
+
+.conteudo-proposito{
+    width: 97%;
+    top: 1vh;
+    
+}
+
+.conteudo-valores{
+    left: 1vh;
+    top: 1vh;
+}
