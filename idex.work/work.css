@@ -1,4 +1,8 @@
 * {
+  outline: 1px dotted red;
+}
+
+* {
   margin: 0;
   padding: 0;
 }
@@ -313,7 +317,7 @@ padding-left: 50vw;
   align-items: center;
   position: relative;
   top: 70px;
-  background-image: linear-gradient(to right, #38f9d7 0%, #43e97b 100%);
+  background-image: linear-gradient(to right, #4B6A86 0%, #C8CAD2 100%);
 }
 
 .titulo-whats {
@@ -345,7 +349,7 @@ padding-left: 50vw;
   font-size: 4rem;
   color: black;
   position: relative;
-  left: 35%;
+  padding-left: 35%;
   bottom: 23px;
 }
 
@@ -610,5 +614,78 @@ width: 15vh;
 .conteudo-valores{
   font-size: 2vh;
 }
+}
 
+@media (max-width: 425px){
+
+#conteudo-secudario{
+  background: none;  
+}
+
+p {
+  width: 80%;
+}
+
+main {
+  height: 100vh;
+  background: url("imgWork/predio.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;  
+  background-color: rgb(0, 0, 0, 0.2);
+  background-blend-mode: color;
+}
+
+.conteudo-principal{
+  background-size: 80%;
+  top: 50vh;
+}
+
+.conteudo-secuntadario-titulo{
+  padding-top: 15vh;
+}
+
+.conteudo-titulo-paragrafo{
+  padding-right: 20px;
+}
+
+.conteudo-todo02{
+  padding-top: 20%;
+  right: 55%;
+}
+
+.conteudo-todo03{
+  padding-top: 20%;
+}
+
+.conteudo-todo{
+  padding-top: 20%;
+  padding-left: 1%;
+  width: 100%;
+}
+
+.conteudo-clientes-titulo{
+  padding-top: 120%;
+}
+
+.logo1{
+  padding-left: 4vh;
+}
+
+.paragrafo-whats{
+  width: 100%;
+}
+
+.whast-numero{
+  width: 80%;
+  padding-left: 80px;
+}
+
+.img-whats {
+  padding: 0%;
+  position: relative;
+  left: 1%;
+  top: 25px;
+}
 }

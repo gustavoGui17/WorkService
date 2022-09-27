@@ -15,7 +15,7 @@
 }
 
 #conteudo-secudario{
-    background-size: 60%;
+    background: none;
     background-position-x: center;
     position: relative;
     bottom: 28vh;
@@ -23,50 +23,57 @@
 
 .conteudo-secuntadario-titulo{
     position: relative;
-    top: 70vh;
+    top: 25vh;
 }
 
-.conteudo-titulo-paragrafo{
+.conteudo-titulo-paragrafo{  /*DIGITALIZAÇÃO DE DOCUMENTOS*/
     position: relative;
-    top: 70vh;
-    right: 45vh;
+    right: 20vh;
+    top: 30vh;
     font-size: 1.7vh;
 }
 
 .conteudo01{
     position: relative;
-    top: 70vh;
-    right: 45vh;
+    top: 30vh;
+    right: 20vh;
     font-size: 2vh; 
 }
 
 .paragrafo-conteudo01{
     position: relative;
-    top: 75vh;
-    right: 45vh;
+    top: 32vh;
+    right: 20vh;
     font-size: 2vh;    
+}
+
+.conteudo-todo02{
+    position: relative;
+    right: 22vh;
+    top: 5vh;  
 }
 
 .conteudo-titulo-paragrafo02{
     position: relative;
-    top: 35vh;
-    font-size: 2vh;   
+    right: 30vh;
+    top: 30vh;
+    font-size: 1.7vh;
 }
 
 .couteudo02{
     position: relative;
-    top: 35vh;
+    top: 30vh;
     font-size: 2vh; 
 }
 
 .paragrafo-conteudo02{
     position: relative;
-    top: 35vh;
+    top: 30vh;
     font-size: 2vh;  
 }
 
 .conteudo-todo03{
-top: 20vh;
+top: 15vh;
 }
 
 .conteudo-titulo-paragrafo03{
